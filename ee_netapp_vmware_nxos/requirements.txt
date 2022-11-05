@@ -1,0 +1,48 @@
+############### requirements for community.vmware #######################
+pyVmomi>=6.7
+git+https://github.com/vmware/vsphere-automation-sdk-python.git ; python_version >= '2.7'  # Python 2.6 is not supported
+
+################## requirements for vmware.vmware_rest #########################
+aiohttp
+
+################## requirements for cisco.nxos #########################
+paramiko=2.8.1
+scp
+
+############### requirements for netapp.aws #######################
+#requests
+
+############### requirements for netapp.azure #######################
+#azure-mgmt-netapp
+#requests
+#xmldict
+
+############### requirements for netapp.cloudmanager #######################
+#requests
+#boto3
+#botocore
+#msrestazure
+#azure-common
+#azure-mgmt-compute>=20.0.0
+#azure-mgmt-core>=1.2.2
+#azure-mgmt-network>=18.0.0
+#azure-mgmt-resource>=16.1.0
+#azure-mgmt-storage>=17.1.0
+
+############### requirements for netapp.elementsw #######################
+#solidfire-sdk-python
+
+############### requirements for netapp.um_info #######################
+#requests
+
+############### requirements for netapp.storagegrid #######################
+#requests
+
+############### requirements for netapp.ontap #######################
+ipaddress
+jmespath
+netapp-lib
+requests
+six
+solidfire-sdk-python
+xmltodict

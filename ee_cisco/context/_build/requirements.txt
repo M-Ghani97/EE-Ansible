@@ -1,0 +1,20 @@
+############### requirements for cisco.nxos #######################
+# paramiko
+scp
+
+############### requirements for cisco.iosxr #######################
+ncclient
+ipaddress
+paramiko==2.8.1
+ansible-pylibssh
+
+############### requirements for cisco.aci #######################
+pyopenssl
+xmljson
+python_dateutil
+cryptography
+xmljson
+
+############### requirements for cisco.ios #######################
+ansible-pylibssh
+paramiko==2.8.1

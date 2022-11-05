@@ -1,0 +1,12 @@
+---
+collections:
+  - name: community.vmware
+  - name: vmware.vmware_rest
+  - name: cisco.nxos
+    #  - name: netapp.aws
+    #  - name: netapp.azure
+    #  - name: netapp.cloudmanager
+  - name: netapp.elementsw
+  - name: netapp.um_info
+  - name: netapp.storagegrid
+  - name: netapp.ontap
